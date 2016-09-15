@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.soccermatchanalysis.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/TeamA"
+                />
+            <TextView
+                style="@style/TextViewStyle"
+                android:id="@+id/show_goal_FC_Barcelona"
+                android:text="@string/TeamA_score"
+                />
+            <Button
+                android:id="@+id/add_goal_Scored_FC_Barcelona"
+                style="@style/ButtonStyle"
+                android:text="@string/add_goal" />
+            <TextView
+                android:id="@+id/show_foul_FC_Barcelona"
+                style="@style/TextViewStyle"
+                android:text="@string/TeamA_foul"
+                />
+            <Button
+                android:id="@+id/add_foul_Committed_Barcelona"
+                style="@style/ButtonStyle"
+                android:text="@string/add_foul" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/TeamB"
+                />
+            <TextView
+                android:id="@+id/show_goal_Real_Madrid"
+                style="@style/TextViewStyle"
+                android:text="@string/TeamB_score"
+                />
+            <Button
+                android:id="@+id/add_goal_Scored_Real_Madrid"
+                style="@style/ButtonStyle"
+                android:text="@string/add_goal" />
+            <TextView
+                android:id="@+id/show_foul_Real_Madrid"
+                style="@style/TextViewStyle"
+                android:text="@string/TeamA_foul"
+                />
+            <Button
+                android:id="@+id/add_foul_Committed_Real_Madrid"
+                style="@style/ButtonStyle"
+                android:text="@string/add_foul" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reset"
+        android:layout_marginBottom="32dp"
+        />
+</RelativeLayout>

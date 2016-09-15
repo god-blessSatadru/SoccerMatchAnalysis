@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SoccerMatchAnalysis</string>
+    <string name="Goals">Goals</string>
+    <string name="fouls">Fouls</string>
+    <string name="TeamA">FC Barcelona</string>
+    <string name="TeamB">Real Madrid</string>
+    <string name="font_family">sans-serif</string>
+    <string name="TeamA_score">0</string>
+    <string name="TeamB_score">0</string>
+    <string name="add_goal">Goal</string>
+    <string name="add_foul">Foul</string>
+    <string name="TeamA_foul">0</string>
+    <string name="TeamB_foul">0</string>
+    <string name="reset">RESET</string>
+
+
+
+</resources>

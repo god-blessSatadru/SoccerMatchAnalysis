@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#CE93D8</item>
+    </style>
+    <style name="ButtonStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginLeft</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginRight</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
+    </style>
+    <style name="TextViewStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent </item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/team_color</item>
+    </style>
+
+</resources>
